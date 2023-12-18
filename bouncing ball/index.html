@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg.js"></script>
+    <meta name=”description” content="Map of the countries which I've visited already.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+            outline: 0 !important;
+            overflow: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #wrap {
+            position: fixed;
+            height: 480px;
+            width: 848px;
+        }
+
+        svg {
+            padding: 0;
+            border: 1px solid black;
+            background-color: beige;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="wrap">
+            <svg id="svg"></svg>
+        </div>
+    </div>
+
+    <script language="javascript" type="text/javascript" src="plugins.js"></script>
+    <script language="javascript" type="text/javascript" src="window.js"></script>
+    <script language="javascript" type="text/javascript" src="vector.js"></script>
+    <script language="javascript" type="text/javascript" src="script.js"></script>
+</body></html>
